@@ -42,5 +42,5 @@ data.forEach(row => {
 if (currentBlock) {
     blocks.push(currentBlock);
 }
-
+// prints
 console.log(JSON.stringify(blocks, null, 2));
